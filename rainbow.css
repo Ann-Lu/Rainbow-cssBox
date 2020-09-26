@@ -1,0 +1,79 @@
+body {
+    background: white;
+}
+
+div {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.rainbow {
+    height: 200px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.rainbow>div {
+    padding: 0px 10px;
+    width: 400px;
+    height: 400px;
+    background: red;
+    border-radius: 50%;
+
+}
+
+.rainbow>div>div {
+    margin: 20px 10px;
+    width: 360px;
+    height: 360px;
+    background: hsl(30, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div {
+    margin: 20px 20px;
+    width: 320px;
+    height: 320px;
+    background: hsl(60, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div {
+    margin: 20px 20px;
+    width: 280px;
+    height: 280px;
+    background: hsl(90, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div {
+    margin: 20px 20px;
+    width: 240px;
+    height: 240px;
+    background: hsl(150, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div {
+    margin: 20px 20px;
+    width: 200px;
+    height: 200px;
+    background: hsl(180, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div {
+    margin: 20px 20px;
+    width: 160px;
+    height: 160px;
+    background: hsl(270, 80%, 50%);
+    border-radius: 50%;
+}
+
+.rainbow>div>div>div>div>div>div>div>div {
+    margin: 20px 20px;
+    width: 120px;
+    height: 120px;
+    background: hsl(360, 100%, 100%);
+    border-radius: 50%;
+}
